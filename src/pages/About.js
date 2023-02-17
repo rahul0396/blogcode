@@ -8,21 +8,21 @@ const About = () => {
     <>
     <Head>
       <title>AboutUs</title>
-      <meta property="og:url"        content="https://getblog2.netlify.app/blog" />
+      <meta property="og:url"        content="https://getblog2.netlify.app/About" />
               <meta property="og:type"       content="blog" />
               <meta property="og:title"      content=" About Page" />
               <meta property="og:description"content=" About Page Desc" />
               <meta property="og:image"      content="https://picsum.photos/200" />
           {/* twitter og tag */}
-          <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@getblogs" />
-          <meta name="twitter:creator" content="@rahulsh" />
-          <meta name="twitter:title" content=" About Page"/>
-          <meta name="twitter:description" content=" About Page- getblog"/>
-          <meta property="og:url" content="https://getblog2.netlify.app/blog" />
-          <meta property="og:title" content=" About Page-getblogs" />
-          <meta property="og:description" content=" About Page Description" />
-          <meta property="og:image" content="https://picsum.photos/200" />
+              <meta name="twitter:card" content="summary" />
+              <meta name="twitter:site" content="@get" />
+              <meta name="twitter:creator" content="@rahulsxh" />
+              <meta name="twitter:title" content=" About Page"/>
+              <meta name="twitter:description" content=" About Page- getblog"/>
+              <meta property="og:url" content="https://getblog2.netlify.app/About" />
+              <meta property="og:title" content=" About Page-getblogs" />
+              <meta property="og:description" content=" About Page Description" />
+              <meta property="og:image" content="https://picsum.photos/200" />
     </Head>
     <Script src='scriptapp.js '></Script>
     <div className={styles.container}>

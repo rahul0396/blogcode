@@ -14,7 +14,7 @@ const Blog = () => {
     
       
       {/* facebook og tag */}
-              <meta property="og:url"        content="https://getblog2.netlify.app/blog" />
+              <meta property="og:url"        content="https://getblog2.netlify.app/Blog" />
               <meta property="og:type"       content="blog" />
               <meta property="og:title"      content="blog page" />
               <meta property="og:description"content="Blog Page Desc" />
@@ -25,7 +25,7 @@ const Blog = () => {
           <meta name="twitter:creator" content="@rahulsh" />
           <meta name="twitter:title" content="blog page"/>
           <meta name="twitter:description" content="blogPAge- getblog"/>
-          <meta property="og:url" content="https://getblog2.netlify.app/blog" />
+          <meta property="og:url" content="https://getblog2.netlify.app/Blog" />
           <meta property="og:title" content="blogPage-getblogs" />
           <meta property="og:description" content="BlogPage Description" />
           <meta property="og:image" content="https://picsum.photos/200" />
