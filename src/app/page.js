@@ -19,15 +19,15 @@ export default function Home() {
         <meta property="og:type"       content="blog" />
         <meta property="og:title"      content="Hunting Coder A Place for coders to read and write a blog." />
         <meta property="og:description"content="Hunting coders a place for all the peoples whose are learning the new things that can read and write a blog." />
-        <meta property="og:image"      content="https://pixabay.com/images/id-72864/" />
+        <meta property="og:image"      content="https://picsum.photos/200" />
           {/* twitter og tag */}
           <meta name="twitter:card" content="blog" />
           <meta name="twitter:site" content="@huntingcode" />
           <meta name="twitter:creator" content="@rahulsh" />
-          <meta property="og:url" content="https://huntingcoder1.netlify.app/Blog" />
+          <meta property="og:url" content="https://getblog2.netlify.app/blog" />
           <meta property="og:title" content="blog-huntingcode" />
           <meta property="og:description" content="Hunting coders a place for all the peoples whose are learning the new things that can read and write a blog." />
-          <meta property="og:image" content="https://pixabay.com/images/id-72864/" />
+          <meta property="og:image" content="https://picsum.photos/200" />
           </Head>
       {/* <Script src="sc.js"></Script> */}
       <Navbar/>
