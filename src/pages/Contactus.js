@@ -17,12 +17,12 @@ const Contactus = () => {
 
                   {/* facebook og tag */}
                   <meta property="og:url"        content="https://getblog2.netlify.app/blog" />
-        <meta property="og:type"       content="summary" />
+        <meta property="og:type"       content="blog" />
         <meta property="og:title"      content="Getblogs :A Place for coders to read and write a blog." />
         <meta property="og:description"content="Getblogs coders a place for all the peoples whose are learning the new things that can read and write a blog." />
         <meta property="og:image"      content="https://example.com/images/cool-page.jpg" />
           {/* twitter og tag */}
-          <meta name="twitter:card" content="blog" />
+          <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@getblogs" />
           <meta name="twitter:creator" content="@rahulsh" />
           <meta name="twitter:title" content="Contactus=>Getblogs :A Place for coders to read and write a blog."/>
