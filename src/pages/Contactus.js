@@ -25,6 +25,8 @@ const Contactus = () => {
           <meta name="twitter:card" content="blog" />
           <meta name="twitter:site" content="@getblogs" />
           <meta name="twitter:creator" content="@rahulsh" />
+          <meta name="twitter:title" content="Contactus=>Getblogs :A Place for coders to read and write a blog."/>
+          <meta name="twitter:description" content="Contactus- getblog"/>
           <meta property="og:url" content="https://getblog2.netlify.app/blog" />
           <meta property="og:title" content="blog-getblogs" />
           <meta property="og:description" content="Hunting coders a place for all the peoples whose are learning the new things that can read and write a blog." />
