@@ -9,7 +9,7 @@ const About = () => {
     <Head>
       <title>AboutUs</title>
                      {/* facebook og tag */}
-        <meta property="og:url"        content="https://huntingcoder1.netlify.app/Blog" />
+        <meta property="og:url"        content="https://getblog2.netlify.app/blog" />
         <meta property="og:type"       content="blog" />
         <meta property="og:title"      content="Hunting Coder A Place for coders to read and write a blog." />
         <meta property="og:description"content="Hunting coders a place for all the peoples whose are learning the new things that can read and write a blog." />
