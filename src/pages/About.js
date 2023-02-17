@@ -8,19 +8,20 @@ const About = () => {
     <>
     <Head>
       <title>AboutUs</title>
-                     {/* facebook og tag */}
-                     <meta property="og:url"        content="https://getblog2.netlify.app/blog" />
-        <meta property="og:type"       content="blog" />
-        <meta property="og:title"      content="Hunting Coder A Place for coders to read and write a blog." />
-        <meta property="og:description"content="Hunting coders a place for all the peoples whose are learning the new things that can read and write a blog." />
-        <meta property="og:image"      content="https://picsum.photos/200" />
+      <meta property="og:url"        content="https://getblog2.netlify.app/blog" />
+              <meta property="og:type"       content="blog" />
+              <meta property="og:title"      content=" About Page" />
+              <meta property="og:description"content=" About Page Desc" />
+              <meta property="og:image"      content="https://picsum.photos/200" />
           {/* twitter og tag */}
-          <meta name="twitter:card" content="blog" />
-          <meta name="twitter:site" content="@huntingcode" />
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@getblogs" />
           <meta name="twitter:creator" content="@rahulsh" />
+          <meta name="twitter:title" content=" About Page"/>
+          <meta name="twitter:description" content=" About Page- getblog"/>
           <meta property="og:url" content="https://getblog2.netlify.app/blog" />
-          <meta property="og:title" content="blog-huntingcode" />
-          <meta property="og:description" content="Hunting coders a place for all the peoples whose are learning the new things that can read and write a blog." />
+          <meta property="og:title" content=" About Page-getblogs" />
+          <meta property="og:description" content=" About Page Description" />
           <meta property="og:image" content="https://picsum.photos/200" />
     </Head>
     <Script src='scriptapp.js '></Script>

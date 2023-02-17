@@ -13,21 +13,21 @@ const Blog = () => {
       <title>Blog</title>
     
       
-     
-
-                {/* facebook og tag */}
-                <meta property="og:url"        content="https://getblog2.netlify.app/blog" />
-        <meta property="og:type"       content="blog" />
-        <meta property="og:title"      content="Hunting Coder A Place for coders to read and write a blog." />
-        <meta property="og:description"content="Hunting coders a place for all the peoples whose are learning the new things that can read and write a blog." />
-        <meta property="og:image"      content="https://picsum.photos/200" />
+      {/* facebook og tag */}
+              <meta property="og:url"        content="https://getblog2.netlify.app/blog" />
+              <meta property="og:type"       content="blog" />
+              <meta property="og:title"      content="blog page" />
+              <meta property="og:description"content="Blog Page Desc" />
+              <meta property="og:image"      content="https://picsum.photos/200" />
           {/* twitter og tag */}
-          <meta name="twitter:card" content="blog" />
-          <meta name="twitter:site" content="@huntingcode" />
+          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:site" content="@getblogs" />
           <meta name="twitter:creator" content="@rahulsh" />
+          <meta name="twitter:title" content="blog page"/>
+          <meta name="twitter:description" content="blogPAge- getblog"/>
           <meta property="og:url" content="https://getblog2.netlify.app/blog" />
-          <meta property="og:title" content="blog-huntingcode" />
-          <meta property="og:description" content="Hunting coders a place for all the peoples whose are learning the new things that can read and write a blog." />
+          <meta property="og:title" content="blogPage-getblogs" />
+          <meta property="og:description" content="BlogPage Description" />
           <meta property="og:image" content="https://picsum.photos/200" />
     </Head>
   <main className={styles.main}>
