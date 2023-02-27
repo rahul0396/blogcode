@@ -1,13 +1,13 @@
-import Image from "next/image";
-import Head from "next/head";
-import { Inter } from "@next/font/google";
-import styles from "./page.module.css";
-import Script from "next/script";
+import Image from 'next/image';
+import Head from 'next/head';
+import { Inter } from '@next/font/google';
+import styles from './page.module.css';
+import Script from 'next/script';
 import Link from 'next/link'
-import Navbar from "@/Component/Navbar";
+import Navbar from '@/Component/Navbar';
 // import Head from './head';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -46,42 +46,7 @@ export default function Home() {
               adipisicing elit. Amet, libero!
             </p>
           </div>
-          <div className={styles.card}>
-            <h4>Blog Title</h4>
-            <p>
-              Blog:Decrption: Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Amet, libero!
-            </p>
-          </div>
-          <div className={styles.card}>
-            <h4>Blog Title</h4>
-            <p>
-              Blog:Decrption: Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Amet, libero!
-            </p>
-          </div>
-          <div className={styles.card}>
-            <h4>Blog Title</h4>
-            <p>
-              Blog:Decrption: this the blog description in which the 
-              blog person give their blog data so that they can explain 
-              the 
-            </p>
-          </div>
-          <div className={styles.card}>
-            <h4>Blog Title</h4>
-            <p>
-              Blog:Decrption: Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Amet, libero!
-            </p>
-          </div>
-          <div className={styles.card}>
-            <h4>Blog Title</h4>
-            <p>
-              Blog:Decrption: Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Amet, libero!
-            </p>
-          </div>
+         
         </div>
       </main>
     </>

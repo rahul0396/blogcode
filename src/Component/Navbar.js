@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from "../app/page.module.css";
+import styles from '../app/page.module.css';
 
 const Navbar = () => {
   return (
@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link href='/Contactus'>
           <li>Contact us </li>
             </Link>
-          <Link href='/Blog'>
+          <Link href='/blog'>
           <li>Blog</li>
           </Link>
           </ul>
