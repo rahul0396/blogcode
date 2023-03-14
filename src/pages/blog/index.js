@@ -13,7 +13,7 @@ const Blog = () => {
   // .then(res=>res.json())
   // .then(data=> console.log(data))
   useEffect(()=>{
-      fetch(' http://localhost:1337/api/blogs/')
+      fetch('https://dailyblog-2i4c.onrender.com/api/blogs')
     .then(res=>res.json())
     .then(data=>{ 
                   setBlogdata(data)});
@@ -53,10 +53,10 @@ console.log(blogdata);
           <h2>Blog Post</h2>
           
          { blogdata.data?.map((a)=>
-         (<Link href={{pathname:`/blog/${a.id}`, query:{title:a.attributes.BlogTitle, description:a.attributes.Description}}}>
+         (<Link href={{pathname:`/blog/${a.id}`, query:{heading:a.attributes.heading, content:a.attributes.content}}}>
          <div  key={a.id}className={styles.card}>
-            <h4>{a.attributes.BlogTitle}</h4>
-            <p>{a.attributes.Description}</p>
+            <h4>{a.attributes.heading}</h4>
+            <p>{a.attributes.content}</p>
           </div>
          </Link> 
           )

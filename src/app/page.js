@@ -36,18 +36,6 @@ export default function Home() {
           <h1>Hunting Coders</h1>
           <p>A Blog Website for Hunting Coder and by the hunting Coder</p>
         </div>
-
-        <div className={styles.card_box}>
-          <h2>Blog Post</h2>
-          <div className={styles.card}>
-            <h4>Blog Title</h4>
-            <p>
-              Blog:Decrption: Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Amet, libero!
-            </p>
-          </div>
-         
-        </div>
       </main>
     </>
   );
